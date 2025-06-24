@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "AlmaIA",
+    "slug": "almaia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app_icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/alma_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#64B5F6"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dxgabalt.almaia",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/alma_logo.png",
+        "backgroundColor": "#64B5F6"
+      },
+      "package": "com.k2suci.almaia"
+    },
+    "web": {
+      "favicon": "./assets/favlogotipo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "28212143-5918-4904-a700-12859e1d5d17"
+      }
+    },
+    "owner": "dxgabalt"
+  }
+}
